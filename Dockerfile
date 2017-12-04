@@ -1,5 +1,5 @@
 FROM amazonlinux:latest
-MAINTAINER arwyn.hainsworth@porters.jp
+MAINTAINER hoanglt705@gmail.com
 # install latest pinit framework
 ARG PINIT_URL=http://jenkins-hrbc.ps.porters.local/job/PInit_Build_Binaries/lastSuccessfulBuild/artifact/build/pinit.tgz
 RUN set -ex \
